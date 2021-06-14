@@ -52,7 +52,7 @@ public class Musical_Letters extends AppCompatActivity implements  View.OnClickL
         x = findViewById(R.id.x);
         y = findViewById(R.id.y);
         z = findViewById(R.id.z);
-
+///first comment
         a.setOnClickListener(this);
         b.setOnClickListener(this);
         c.setOnClickListener(this);
