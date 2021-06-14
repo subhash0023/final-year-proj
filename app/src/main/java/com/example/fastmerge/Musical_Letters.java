@@ -2,7 +2,7 @@ package com.example.fastmerge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
+
 import android.media.MediaPlayer;
 
 import android.os.Bundle;
@@ -22,7 +22,6 @@ public class Musical_Letters extends AppCompatActivity implements  View.OnClickL
     TextView a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
     MediaPlayer mla , mlb ,mlc ,mld ,mle, mlf ,mlg , mlh , mli,mlj,mlk,mll,mlm,mln,mlo,mlp,mlq,mlr,mls,mlt,mlu,mlv,mlw,mlx,mly,mlz;
 
-    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
